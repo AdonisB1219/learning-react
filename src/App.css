@@ -36,3 +36,35 @@
     transform: rotate(360deg);
   }
 }
+
+nav{
+  background-color: aqua;
+  padding: 5px 0px;
+
+}
+
+ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+
+nav > * > *{
+  list-style: none;
+  display: inline;
+  padding: 5px;
+
+}
+
+nav > * > * > *{
+  text-decoration: none;
+  color:black;
+}
+
+nav > * > * > *:hover{
+  background-color:blueviolet;
+  color:white;
+  border-radius: 5px;
+  padding: 5px;
+}
